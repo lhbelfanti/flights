@@ -1,0 +1,727 @@
+{
+    "analysis": {
+        "title": "Profiling Report: {file} table",
+        "date_start": "2024-03-30 05:35:08.338019",
+        "date_end": "2024-03-30 05:35:09.154058"
+    },
+    "time_index_analysis": "None",
+    "table": {
+        "n": 14,
+        "n_var": 2,
+        "memory_size": 352,
+        "record_size": 25.142857142857142,
+        "n_cells_missing": 0,
+        "n_vars_with_missing": 0,
+        "n_vars_all_missing": 0,
+        "p_cells_missing": 0.0,
+        "types": {
+            "Text": 2
+        },
+        "n_duplicates": 0,
+        "p_duplicates": 0.0
+    },
+    "variables": {
+        "IATA_CODE": {
+            "n_distinct": 14,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 14,
+            "p_unique": 1.0,
+            "type": "Text",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "UA": 1,
+                "AA": 1,
+                "US": 1,
+                "F9": 1,
+                "B6": 1,
+                "OO": 1,
+                "AS": 1,
+                "NK": 1,
+                "WN": 1,
+                "DL": 1,
+                "EV": 1,
+                "HA": 1,
+                "MQ": 1,
+                "VX": 1
+            },
+            "value_counts_index_sorted": {
+                "AA": 1,
+                "AS": 1,
+                "B6": 1,
+                "DL": 1,
+                "EV": 1,
+                "F9": 1,
+                "HA": 1,
+                "MQ": 1,
+                "NK": 1,
+                "OO": 1,
+                "UA": 1,
+                "US": 1,
+                "VX": 1,
+                "WN": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 14,
+            "p_missing": 0.0,
+            "count": 14,
+            "memory_size": 240,
+            "first_rows": {
+                "0": "UA",
+                "1": "AA",
+                "2": "US",
+                "3": "F9",
+                "4": "B6"
+            },
+            "max_length": 2,
+            "mean_length": 2.0,
+            "median_length": 2,
+            "min_length": 2,
+            "length_histogram": {
+                "2": 14
+            },
+            "histogram_length": {
+                "counts": [
+                    14
+                ],
+                "bin_edges": [
+                    1.5,
+                    2.5
+                ]
+            },
+            "n_characters_distinct": 19,
+            "n_characters": 28,
+            "character_counts": {
+                "A": 5,
+                "U": 2,
+                "S": 2,
+                "V": 2,
+                "O": 2,
+                "N": 2,
+                "L": 1,
+                "Q": 1,
+                "M": 1,
+                "H": 1,
+                "E": 1,
+                "K": 1,
+                "D": 1,
+                "W": 1,
+                "6": 1,
+                "B": 1,
+                "9": 1,
+                "F": 1,
+                "X": 1
+            },
+            "category_alias_values": {
+                "A": "(unknown)",
+                "U": "(unknown)",
+                "S": "(unknown)",
+                "V": "(unknown)",
+                "O": "(unknown)",
+                "N": "(unknown)",
+                "L": "(unknown)",
+                "Q": "(unknown)",
+                "M": "(unknown)",
+                "H": "(unknown)",
+                "E": "(unknown)",
+                "K": "(unknown)",
+                "D": "(unknown)",
+                "W": "(unknown)",
+                "6": "(unknown)",
+                "B": "(unknown)",
+                "9": "(unknown)",
+                "F": "(unknown)",
+                "X": "(unknown)"
+            },
+            "block_alias_values": {
+                "A": "(unknown)",
+                "U": "(unknown)",
+                "S": "(unknown)",
+                "V": "(unknown)",
+                "O": "(unknown)",
+                "N": "(unknown)",
+                "L": "(unknown)",
+                "Q": "(unknown)",
+                "M": "(unknown)",
+                "H": "(unknown)",
+                "E": "(unknown)",
+                "K": "(unknown)",
+                "D": "(unknown)",
+                "W": "(unknown)",
+                "6": "(unknown)",
+                "B": "(unknown)",
+                "9": "(unknown)",
+                "F": "(unknown)",
+                "X": "(unknown)"
+            },
+            "block_alias_counts": {
+                "(unknown)": 28
+            },
+            "n_block_alias": 1,
+            "block_alias_char_counts": {
+                "(unknown)": {
+                    "A": 5,
+                    "U": 2,
+                    "S": 2,
+                    "V": 2,
+                    "O": 2,
+                    "N": 2,
+                    "L": 1,
+                    "Q": 1,
+                    "M": 1,
+                    "H": 1,
+                    "E": 1,
+                    "K": 1,
+                    "D": 1,
+                    "W": 1,
+                    "6": 1,
+                    "B": 1,
+                    "9": 1,
+                    "F": 1,
+                    "X": 1
+                }
+            },
+            "script_counts": {
+                "(unknown)": 28
+            },
+            "n_scripts": 1,
+            "script_char_counts": {
+                "(unknown)": {
+                    "A": 5,
+                    "U": 2,
+                    "S": 2,
+                    "V": 2,
+                    "O": 2,
+                    "N": 2,
+                    "L": 1,
+                    "Q": 1,
+                    "M": 1,
+                    "H": 1,
+                    "E": 1,
+                    "K": 1,
+                    "D": 1,
+                    "W": 1,
+                    "6": 1,
+                    "B": 1,
+                    "9": 1,
+                    "F": 1,
+                    "X": 1
+                }
+            },
+            "category_alias_counts": {
+                "(unknown)": 28
+            },
+            "n_category": 1,
+            "category_alias_char_counts": {
+                "(unknown)": {
+                    "A": 5,
+                    "U": 2,
+                    "S": 2,
+                    "V": 2,
+                    "O": 2,
+                    "N": 2,
+                    "L": 1,
+                    "Q": 1,
+                    "M": 1,
+                    "H": 1,
+                    "E": 1,
+                    "K": 1,
+                    "D": 1,
+                    "W": 1,
+                    "6": 1,
+                    "B": 1,
+                    "9": 1,
+                    "F": 1,
+                    "X": 1
+                }
+            },
+            "word_counts": {
+                "ua": 1,
+                "aa": 1,
+                "us": 1,
+                "f9": 1,
+                "b6": 1,
+                "oo": 1,
+                "as": 1,
+                "nk": 1,
+                "wn": 1,
+                "dl": 1,
+                "ev": 1,
+                "ha": 1,
+                "mq": 1,
+                "vx": 1
+            }
+        },
+        "AIRLINE": {
+            "n_distinct": 14,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 14,
+            "p_unique": 1.0,
+            "type": "Text",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "United Air Lines Inc.": 1,
+                "American Airlines Inc.": 1,
+                "US Airways Inc.": 1,
+                "Frontier Airlines Inc.": 1,
+                "JetBlue Airways": 1,
+                "Skywest Airlines Inc.": 1,
+                "Alaska Airlines Inc.": 1,
+                "Spirit Air Lines": 1,
+                "Southwest Airlines Co.": 1,
+                "Delta Air Lines Inc.": 1,
+                "Atlantic Southeast Airlines": 1,
+                "Hawaiian Airlines Inc.": 1,
+                "American Eagle Airlines Inc.": 1,
+                "Virgin America": 1
+            },
+            "value_counts_index_sorted": {
+                "Alaska Airlines Inc.": 1,
+                "American Airlines Inc.": 1,
+                "American Eagle Airlines Inc.": 1,
+                "Atlantic Southeast Airlines": 1,
+                "Delta Air Lines Inc.": 1,
+                "Frontier Airlines Inc.": 1,
+                "Hawaiian Airlines Inc.": 1,
+                "JetBlue Airways": 1,
+                "Skywest Airlines Inc.": 1,
+                "Southwest Airlines Co.": 1,
+                "Spirit Air Lines": 1,
+                "US Airways Inc.": 1,
+                "United Air Lines Inc.": 1,
+                "Virgin America": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 14,
+            "p_missing": 0.0,
+            "count": 14,
+            "memory_size": 240,
+            "first_rows": {
+                "0": "United Air Lines Inc.",
+                "1": "American Airlines Inc.",
+                "2": "US Airways Inc.",
+                "3": "Frontier Airlines Inc.",
+                "4": "JetBlue Airways"
+            },
+            "max_length": 28,
+            "mean_length": 20.357142857142858,
+            "median_length": 22,
+            "min_length": 14,
+            "length_histogram": {
+                "22": 4,
+                "21": 2,
+                "15": 2,
+                "20": 2,
+                "16": 1,
+                "27": 1,
+                "28": 1,
+                "14": 1
+            },
+            "histogram_length": {
+                "counts": [
+                    3,
+                    1,
+                    0,
+                    2,
+                    6,
+                    0,
+                    0,
+                    2
+                ],
+                "bin_edges": [
+                    14.0,
+                    15.75,
+                    17.5,
+                    19.25,
+                    21.0,
+                    22.75,
+                    24.5,
+                    26.25,
+                    28.0
+                ]
+            },
+            "n_characters_distinct": 34,
+            "n_characters": 285,
+            "character_counts": {
+                "i": 36,
+                " ": 29,
+                "n": 27,
+                "e": 23,
+                "r": 20,
+                "A": 18,
+                "s": 17,
+                "a": 14,
+                "l": 13,
+                "c": 13,
+                "t": 12,
+                ".": 10,
+                "I": 9,
+                "w": 5,
+                "S": 5,
+                "o": 4,
+                "m": 3,
+                "u": 3,
+                "L": 3,
+                "y": 3,
+                "g": 2,
+                "h": 2,
+                "k": 2,
+                "U": 2,
+                "B": 1,
+                "J": 1,
+                "p": 1,
+                "F": 1,
+                "C": 1,
+                "D": 1,
+                "H": 1,
+                "E": 1,
+                "d": 1,
+                "V": 1
+            },
+            "category_alias_values": {
+                "i": "(unknown)",
+                " ": "(unknown)",
+                "n": "(unknown)",
+                "e": "(unknown)",
+                "r": "(unknown)",
+                "A": "(unknown)",
+                "s": "(unknown)",
+                "a": "(unknown)",
+                "l": "(unknown)",
+                "c": "(unknown)",
+                "t": "(unknown)",
+                ".": "(unknown)",
+                "I": "(unknown)",
+                "w": "(unknown)",
+                "S": "(unknown)",
+                "o": "(unknown)",
+                "m": "(unknown)",
+                "u": "(unknown)",
+                "L": "(unknown)",
+                "y": "(unknown)",
+                "g": "(unknown)",
+                "h": "(unknown)",
+                "k": "(unknown)",
+                "U": "(unknown)",
+                "B": "(unknown)",
+                "J": "(unknown)",
+                "p": "(unknown)",
+                "F": "(unknown)",
+                "C": "(unknown)",
+                "D": "(unknown)",
+                "H": "(unknown)",
+                "E": "(unknown)",
+                "d": "(unknown)",
+                "V": "(unknown)"
+            },
+            "block_alias_values": {
+                "i": "(unknown)",
+                " ": "(unknown)",
+                "n": "(unknown)",
+                "e": "(unknown)",
+                "r": "(unknown)",
+                "A": "(unknown)",
+                "s": "(unknown)",
+                "a": "(unknown)",
+                "l": "(unknown)",
+                "c": "(unknown)",
+                "t": "(unknown)",
+                ".": "(unknown)",
+                "I": "(unknown)",
+                "w": "(unknown)",
+                "S": "(unknown)",
+                "o": "(unknown)",
+                "m": "(unknown)",
+                "u": "(unknown)",
+                "L": "(unknown)",
+                "y": "(unknown)",
+                "g": "(unknown)",
+                "h": "(unknown)",
+                "k": "(unknown)",
+                "U": "(unknown)",
+                "B": "(unknown)",
+                "J": "(unknown)",
+                "p": "(unknown)",
+                "F": "(unknown)",
+                "C": "(unknown)",
+                "D": "(unknown)",
+                "H": "(unknown)",
+                "E": "(unknown)",
+                "d": "(unknown)",
+                "V": "(unknown)"
+            },
+            "block_alias_counts": {
+                "(unknown)": 285
+            },
+            "n_block_alias": 1,
+            "block_alias_char_counts": {
+                "(unknown)": {
+                    "i": 36,
+                    " ": 29,
+                    "n": 27,
+                    "e": 23,
+                    "r": 20,
+                    "A": 18,
+                    "s": 17,
+                    "a": 14,
+                    "l": 13,
+                    "c": 13,
+                    "t": 12,
+                    ".": 10,
+                    "I": 9,
+                    "w": 5,
+                    "S": 5,
+                    "o": 4,
+                    "m": 3,
+                    "u": 3,
+                    "L": 3,
+                    "y": 3,
+                    "g": 2,
+                    "h": 2,
+                    "k": 2,
+                    "U": 2,
+                    "B": 1,
+                    "J": 1,
+                    "p": 1,
+                    "F": 1,
+                    "C": 1,
+                    "D": 1,
+                    "H": 1,
+                    "E": 1,
+                    "d": 1,
+                    "V": 1
+                }
+            },
+            "script_counts": {
+                "(unknown)": 285
+            },
+            "n_scripts": 1,
+            "script_char_counts": {
+                "(unknown)": {
+                    "i": 36,
+                    " ": 29,
+                    "n": 27,
+                    "e": 23,
+                    "r": 20,
+                    "A": 18,
+                    "s": 17,
+                    "a": 14,
+                    "l": 13,
+                    "c": 13,
+                    "t": 12,
+                    ".": 10,
+                    "I": 9,
+                    "w": 5,
+                    "S": 5,
+                    "o": 4,
+                    "m": 3,
+                    "u": 3,
+                    "L": 3,
+                    "y": 3,
+                    "g": 2,
+                    "h": 2,
+                    "k": 2,
+                    "U": 2,
+                    "B": 1,
+                    "J": 1,
+                    "p": 1,
+                    "F": 1,
+                    "C": 1,
+                    "D": 1,
+                    "H": 1,
+                    "E": 1,
+                    "d": 1,
+                    "V": 1
+                }
+            },
+            "category_alias_counts": {
+                "(unknown)": 285
+            },
+            "n_category": 1,
+            "category_alias_char_counts": {
+                "(unknown)": {
+                    "i": 36,
+                    " ": 29,
+                    "n": 27,
+                    "e": 23,
+                    "r": 20,
+                    "A": 18,
+                    "s": 17,
+                    "a": 14,
+                    "l": 13,
+                    "c": 13,
+                    "t": 12,
+                    ".": 10,
+                    "I": 9,
+                    "w": 5,
+                    "S": 5,
+                    "o": 4,
+                    "m": 3,
+                    "u": 3,
+                    "L": 3,
+                    "y": 3,
+                    "g": 2,
+                    "h": 2,
+                    "k": 2,
+                    "U": 2,
+                    "B": 1,
+                    "J": 1,
+                    "p": 1,
+                    "F": 1,
+                    "C": 1,
+                    "D": 1,
+                    "H": 1,
+                    "E": 1,
+                    "d": 1,
+                    "V": 1
+                }
+            },
+            "word_counts": {
+                "inc": 9,
+                "airlines": 8,
+                "lines": 3,
+                "air": 3,
+                "american": 2,
+                "airways": 2,
+                "united": 1,
+                "co": 1,
+                "virgin": 1,
+                "eagle": 1,
+                "hawaiian": 1,
+                "southeast": 1,
+                "atlantic": 1,
+                "delta": 1,
+                "alaska": 1,
+                "southwest": 1,
+                "spirit": 1,
+                "skywest": 1,
+                "jetblue": 1,
+                "frontier": 1,
+                "us": 1,
+                "america": 1
+            }
+        }
+    },
+    "scatter": {},
+    "correlations": {},
+    "missing": {
+        "bar": {
+            "name": "Count",
+            "caption": "A simple visualization of nullity by column.",
+            "matrix": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"720pt\" height=\"360pt\" viewBox=\"0 0 720 360\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2024-03-30T02:35:08.897458</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.8.3, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 360 \nL 720 360 \nL 720 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 72 252 \nL 648 252 \nL 648 72 \nL 72 72 \nz\n\" style=\"fill: #ffffff\"/>\n   </g>\n   <g id=\"matplotlib.axis_1\">\n    <g id=\"xtick_1\">\n     <g id=\"text_1\">\n      <!-- IATA_CODE -->\n      <g style=\"fill: #262626\" transform=\"translate(163.426721 319.943808) rotate(-45) scale(0.13 -0.13)\">\n       <defs>\n        <path id=\"ArialMT-49\" d=\"M 597 0 \nL 597 4581 \nL 1203 4581 \nL 1203 0 \nL 597 0 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-41\" d=\"M -9 0 \nL 1750 4581 \nL 2403 4581 \nL 4278 0 \nL 3588 0 \nL 3053 1388 \nL 1138 1388 \nL 634 0 \nL -9 0 \nz\nM 1313 1881 \nL 2866 1881 \nL 2388 3150 \nQ 2169 3728 2063 4100 \nQ 1975 3659 1816 3225 \nL 1313 1881 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-54\" d=\"M 1659 0 \nL 1659 4041 \nL 150 4041 \nL 150 4581 \nL 3781 4581 \nL 3781 4041 \nL 2266 4041 \nL 2266 0 \nL 1659 0 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-5f\" d=\"M -97 -1272 \nL -97 -866 \nL 3631 -866 \nL 3631 -1272 \nL -97 -1272 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-43\" d=\"M 3763 1606 \nL 4369 1453 \nQ 4178 706 3683 314 \nQ 3188 -78 2472 -78 \nQ 1731 -78 1267 223 \nQ 803 525 561 1097 \nQ 319 1669 319 2325 \nQ 319 3041 592 3573 \nQ 866 4106 1370 4382 \nQ 1875 4659 2481 4659 \nQ 3169 4659 3637 4309 \nQ 4106 3959 4291 3325 \nL 3694 3184 \nQ 3534 3684 3231 3912 \nQ 2928 4141 2469 4141 \nQ 1941 4141 1586 3887 \nQ 1231 3634 1087 3207 \nQ 944 2781 944 2328 \nQ 944 1744 1114 1308 \nQ 1284 872 1643 656 \nQ 2003 441 2422 441 \nQ 2931 441 3284 734 \nQ 3638 1028 3763 1606 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-4f\" d=\"M 309 2231 \nQ 309 3372 921 4017 \nQ 1534 4663 2503 4663 \nQ 3138 4663 3647 4359 \nQ 4156 4056 4423 3514 \nQ 4691 2972 4691 2284 \nQ 4691 1588 4409 1038 \nQ 4128 488 3612 205 \nQ 3097 -78 2500 -78 \nQ 1853 -78 1343 234 \nQ 834 547 571 1087 \nQ 309 1628 309 2231 \nz\nM 934 2222 \nQ 934 1394 1379 917 \nQ 1825 441 2497 441 \nQ 3181 441 3623 922 \nQ 4066 1403 4066 2288 \nQ 4066 2847 3877 3264 \nQ 3688 3681 3323 3911 \nQ 2959 4141 2506 4141 \nQ 1863 4141 1398 3698 \nQ 934 3256 934 2222 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-44\" d=\"M 494 0 \nL 494 4581 \nL 2072 4581 \nQ 2606 4581 2888 4516 \nQ 3281 4425 3559 4188 \nQ 3922 3881 4101 3404 \nQ 4281 2928 4281 2316 \nQ 4281 1794 4159 1391 \nQ 4038 988 3847 723 \nQ 3656 459 3429 307 \nQ 3203 156 2883 78 \nQ 2563 0 2147 0 \nL 494 0 \nz\nM 1100 541 \nL 2078 541 \nQ 2531 541 2789 625 \nQ 3047 709 3200 863 \nQ 3416 1078 3536 1442 \nQ 3656 1806 3656 2325 \nQ 3656 3044 3420 3430 \nQ 3184 3816 2847 3947 \nQ 2603 4041 2063 4041 \nL 1100 4041 \nL 1100 541 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-45\" d=\"M 506 0 \nL 506 4581 \nL 3819 4581 \nL 3819 4041 \nL 1113 4041 \nL 1113 2638 \nL 3647 2638 \nL 3647 2100 \nL 1113 2100 \nL 1113 541 \nL 3925 541 \nL 3925 0 \nL 506 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-49\"/>\n       <use xlink:href=\"#ArialMT-41\" x=\"27.783203\"/>\n       <use xlink:href=\"#ArialMT-54\" x=\"87.107422\"/>\n       <use xlink:href=\"#ArialMT-41\" x=\"140.816406\"/>\n       <use xlink:href=\"#ArialMT-5f\" x=\"207.515625\"/>\n       <use xlink:href=\"#ArialMT-43\" x=\"263.130859\"/>\n       <use xlink:href=\"#ArialMT-4f\" x=\"335.347656\"/>\n       <use xlink:href=\"#ArialMT-44\" x=\"413.130859\"/>\n       <use xlink:href=\"#ArialMT-45\" x=\"485.347656\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_2\">\n     <g id=\"text_2\">\n      <!-- AIRLINE -->\n      <g style=\"fill: #262626\" transform=\"translate(466.413187 304.839565) rotate(-45) scale(0.13 -0.13)\">\n       <defs>\n        <path id=\"ArialMT-52\" d=\"M 503 0 \nL 503 4581 \nL 2534 4581 \nQ 3147 4581 3465 4457 \nQ 3784 4334 3975 4021 \nQ 4166 3709 4166 3331 \nQ 4166 2844 3850 2509 \nQ 3534 2175 2875 2084 \nQ 3116 1969 3241 1856 \nQ 3506 1613 3744 1247 \nL 4541 0 \nL 3778 0 \nL 3172 953 \nQ 2906 1366 2734 1584 \nQ 2563 1803 2427 1890 \nQ 2291 1978 2150 2013 \nQ 2047 2034 1813 2034 \nL 1109 2034 \nL 1109 0 \nL 503 0 \nz\nM 1109 2559 \nL 2413 2559 \nQ 2828 2559 3062 2645 \nQ 3297 2731 3419 2920 \nQ 3541 3109 3541 3331 \nQ 3541 3656 3305 3865 \nQ 3069 4075 2559 4075 \nL 1109 4075 \nL 1109 2559 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-4c\" d=\"M 469 0 \nL 469 4581 \nL 1075 4581 \nL 1075 541 \nL 3331 541 \nL 3331 0 \nL 469 0 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-4e\" d=\"M 488 0 \nL 488 4581 \nL 1109 4581 \nL 3516 984 \nL 3516 4581 \nL 4097 4581 \nL 4097 0 \nL 3475 0 \nL 1069 3600 \nL 1069 0 \nL 488 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-41\"/>\n       <use xlink:href=\"#ArialMT-49\" x=\"66.699219\"/>\n       <use xlink:href=\"#ArialMT-52\" x=\"94.482422\"/>\n       <use xlink:href=\"#ArialMT-4c\" x=\"166.699219\"/>\n       <use xlink:href=\"#ArialMT-49\" x=\"222.314453\"/>\n       <use xlink:href=\"#ArialMT-4e\" x=\"250.097656\"/>\n       <use xlink:href=\"#ArialMT-45\" x=\"322.314453\"/>\n      </g>\n     </g>\n    </g>\n   </g>\n   <g id=\"matplotlib.axis_2\">\n    <g id=\"ytick_1\">\n     <g id=\"text_3\">\n      <!-- 0.0 -->\n      <g style=\"fill: #262626\" transform=\"translate(43.43 256.652578) scale(0.13 -0.13)\">\n       <defs>\n        <path id=\"ArialMT-30\" d=\"M 266 2259 \nQ 266 3072 433 3567 \nQ 600 4063 929 4331 \nQ 1259 4600 1759 4600 \nQ 2128 4600 2406 4451 \nQ 2684 4303 2865 4023 \nQ 3047 3744 3150 3342 \nQ 3253 2941 3253 2259 \nQ 3253 1453 3087 958 \nQ 2922 463 2592 192 \nQ 2263 -78 1759 -78 \nQ 1097 -78 719 397 \nQ 266 969 266 2259 \nz\nM 844 2259 \nQ 844 1131 1108 757 \nQ 1372 384 1759 384 \nQ 2147 384 2411 759 \nQ 2675 1134 2675 2259 \nQ 2675 3391 2411 3762 \nQ 2147 4134 1753 4134 \nQ 1366 4134 1134 3806 \nQ 844 3388 844 2259 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-2e\" d=\"M 581 0 \nL 581 641 \nL 1222 641 \nL 1222 0 \nL 581 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-30\"/>\n       <use xlink:href=\"#ArialMT-2e\" x=\"55.615234\"/>\n       <use xlink:href=\"#ArialMT-30\" x=\"83.398438\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_2\">\n     <g id=\"text_4\">\n      <!-- 0.2 -->\n      <g style=\"fill: #262626\" transform=\"translate(43.43 222.366864) scale(0.13 -0.13)\">\n       <defs>\n        <path id=\"ArialMT-32\" d=\"M 3222 541 \nL 3222 0 \nL 194 0 \nQ 188 203 259 391 \nQ 375 700 629 1000 \nQ 884 1300 1366 1694 \nQ 2113 2306 2375 2664 \nQ 2638 3022 2638 3341 \nQ 2638 3675 2398 3904 \nQ 2159 4134 1775 4134 \nQ 1369 4134 1125 3890 \nQ 881 3647 878 3216 \nL 300 3275 \nQ 359 3922 746 4261 \nQ 1134 4600 1788 4600 \nQ 2447 4600 2831 4234 \nQ 3216 3869 3216 3328 \nQ 3216 3053 3103 2787 \nQ 2991 2522 2730 2228 \nQ 2469 1934 1863 1422 \nQ 1356 997 1212 845 \nQ 1069 694 975 541 \nL 3222 541 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-30\"/>\n       <use xlink:href=\"#ArialMT-2e\" x=\"55.615234\"/>\n       <use xlink:href=\"#ArialMT-32\" x=\"83.398438\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_3\">\n     <g id=\"text_5\">\n      <!-- 0.4 -->\n      <g style=\"fill: #262626\" transform=\"translate(43.43 188.08115) scale(0.13 -0.13)\">\n       <defs>\n        <path id=\"ArialMT-34\" d=\"M 2069 0 \nL 2069 1097 \nL 81 1097 \nL 81 1613 \nL 2172 4581 \nL 2631 4581 \nL 2631 1613 \nL 3250 1613 \nL 3250 1097 \nL 2631 1097 \nL 2631 0 \nL 2069 0 \nz\nM 2069 1613 \nL 2069 3678 \nL 634 1613 \nL 2069 1613 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-30\"/>\n       <use xlink:href=\"#ArialMT-2e\" x=\"55.615234\"/>\n       <use xlink:href=\"#ArialMT-34\" x=\"83.398438\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_4\">\n     <g id=\"text_6\">\n      <!-- 0.6 -->\n      <g style=\"fill: #262626\" transform=\"translate(43.43 153.795435) scale(0.13 -0.13)\">\n       <defs>\n        <path id=\"ArialMT-36\" d=\"M 3184 3459 \nL 2625 3416 \nQ 2550 3747 2413 3897 \nQ 2184 4138 1850 4138 \nQ 1581 4138 1378 3988 \nQ 1113 3794 959 3422 \nQ 806 3050 800 2363 \nQ 1003 2672 1297 2822 \nQ 1591 2972 1913 2972 \nQ 2475 2972 2870 2558 \nQ 3266 2144 3266 1488 \nQ 3266 1056 3080 686 \nQ 2894 316 2569 119 \nQ 2244 -78 1831 -78 \nQ 1128 -78 684 439 \nQ 241 956 241 2144 \nQ 241 3472 731 4075 \nQ 1159 4600 1884 4600 \nQ 2425 4600 2770 4297 \nQ 3116 3994 3184 3459 \nz\nM 888 1484 \nQ 888 1194 1011 928 \nQ 1134 663 1356 523 \nQ 1578 384 1822 384 \nQ 2178 384 2434 671 \nQ 2691 959 2691 1453 \nQ 2691 1928 2437 2201 \nQ 2184 2475 1800 2475 \nQ 1419 2475 1153 2201 \nQ 888 1928 888 1484 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-30\"/>\n       <use xlink:href=\"#ArialMT-2e\" x=\"55.615234\"/>\n       <use xlink:href=\"#ArialMT-36\" x=\"83.398438\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_5\">\n     <g id=\"text_7\">\n      <!-- 0.8 -->\n      <g style=\"fill: #262626\" transform=\"translate(43.43 119.509721) scale(0.13 -0.13)\">\n       <defs>\n        <path id=\"ArialMT-38\" d=\"M 1131 2484 \nQ 781 2613 612 2850 \nQ 444 3088 444 3419 \nQ 444 3919 803 4259 \nQ 1163 4600 1759 4600 \nQ 2359 4600 2725 4251 \nQ 3091 3903 3091 3403 \nQ 3091 3084 2923 2848 \nQ 2756 2613 2416 2484 \nQ 2838 2347 3058 2040 \nQ 3278 1734 3278 1309 \nQ 3278 722 2862 322 \nQ 2447 -78 1769 -78 \nQ 1091 -78 675 323 \nQ 259 725 259 1325 \nQ 259 1772 486 2073 \nQ 713 2375 1131 2484 \nz\nM 1019 3438 \nQ 1019 3113 1228 2906 \nQ 1438 2700 1772 2700 \nQ 2097 2700 2305 2904 \nQ 2513 3109 2513 3406 \nQ 2513 3716 2298 3927 \nQ 2084 4138 1766 4138 \nQ 1444 4138 1231 3931 \nQ 1019 3725 1019 3438 \nz\nM 838 1322 \nQ 838 1081 952 856 \nQ 1066 631 1291 507 \nQ 1516 384 1775 384 \nQ 2178 384 2440 643 \nQ 2703 903 2703 1303 \nQ 2703 1709 2433 1975 \nQ 2163 2241 1756 2241 \nQ 1359 2241 1098 1978 \nQ 838 1716 838 1322 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-30\"/>\n       <use xlink:href=\"#ArialMT-2e\" x=\"55.615234\"/>\n       <use xlink:href=\"#ArialMT-38\" x=\"83.398438\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_6\">\n     <g id=\"text_8\">\n      <!-- 1.0 -->\n      <g style=\"fill: #262626\" transform=\"translate(43.43 85.224007) scale(0.13 -0.13)\">\n       <defs>\n        <path id=\"ArialMT-31\" d=\"M 2384 0 \nL 1822 0 \nL 1822 3584 \nQ 1619 3391 1289 3197 \nQ 959 3003 697 2906 \nL 697 3450 \nQ 1169 3672 1522 3987 \nQ 1875 4303 2022 4600 \nL 2384 4600 \nL 2384 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-31\"/>\n       <use xlink:href=\"#ArialMT-2e\" x=\"55.615234\"/>\n       <use xlink:href=\"#ArialMT-30\" x=\"83.398438\"/>\n      </g>\n     </g>\n    </g>\n   </g>\n   <g id=\"patch_3\">\n    <path d=\"M 144 252 \nL 288 252 \nL 288 80.571429 \nL 144 80.571429 \nz\n\" clip-path=\"url(#pc32fd70dc8)\" style=\"fill: #377eb8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"patch_4\">\n    <path d=\"M 432 252 \nL 576 252 \nL 576 80.571429 \nL 432 80.571429 \nz\n\" clip-path=\"url(#pc32fd70dc8)\" style=\"fill: #377eb8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter\"/>\n   </g>\n  </g>\n  <g id=\"axes_2\">\n   <g id=\"matplotlib.axis_3\">\n    <g id=\"xtick_3\">\n     <g id=\"text_9\">\n      <!-- 14 -->\n      <g style=\"fill: #262626\" transform=\"translate(222.579739 59.673013) rotate(-45) scale(0.13 -0.13)\">\n       <use xlink:href=\"#ArialMT-31\"/>\n       <use xlink:href=\"#ArialMT-34\" x=\"55.615234\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_4\">\n     <g id=\"text_10\">\n      <!-- 14 -->\n      <g style=\"fill: #262626\" transform=\"translate(510.579739 59.673013) rotate(-45) scale(0.13 -0.13)\">\n       <use xlink:href=\"#ArialMT-31\"/>\n       <use xlink:href=\"#ArialMT-34\" x=\"55.615234\"/>\n      </g>\n     </g>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pc32fd70dc8\">\n   <rect x=\"72\" y=\"72\" width=\"576\" height=\"180\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+        },
+        "matrix": {
+            "name": "Matrix",
+            "caption": "Nullity matrix is a data-dense display which lets you quickly visually pick out patterns in data completion.",
+            "matrix": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"720pt\" height=\"288pt\" viewBox=\"0 0 720 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2024-03-30T02:35:09.051748</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.8.3, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 720 288 \nL 720 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 72 230.4 \nL 648 230.4 \nL 648 86.4 \nL 72 86.4 \nz\n\" style=\"fill: #ffffff\"/>\n   </g>\n   <g clip-path=\"url(#pabd86074de)\">\n    <image xlink:href=\"data:image/png;base64,\niVBORw0KGgoAAAANSUhEUgAAAAIAAAAOCAYAAAAFdM1fAAAAF0lEQVR4nGM0r9vxn4GBgYGJAQroyQAAMUICiNL24cIAAAAASUVORK5CYII=\" id=\"image7d9bb839e2\" transform=\"matrix(288 0 0 10.285714 72 86.4)\" style=\"image-rendering:crisp-edges;image-rendering:pixelated\" width=\"2\" height=\"14\"/>\n   </g>\n   <g id=\"matplotlib.axis_1\">\n    <g id=\"xtick_1\">\n     <g id=\"text_1\">\n      <!-- IATA_CODE -->\n      <g style=\"fill: #262626\" transform=\"translate(221.358013 74.43841) rotate(-45) scale(0.104 -0.104)\">\n       <defs>\n        <path id=\"ArialMT-49\" d=\"M 597 0 \nL 597 4581 \nL 1203 4581 \nL 1203 0 \nL 597 0 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-41\" d=\"M -9 0 \nL 1750 4581 \nL 2403 4581 \nL 4278 0 \nL 3588 0 \nL 3053 1388 \nL 1138 1388 \nL 634 0 \nL -9 0 \nz\nM 1313 1881 \nL 2866 1881 \nL 2388 3150 \nQ 2169 3728 2063 4100 \nQ 1975 3659 1816 3225 \nL 1313 1881 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-54\" d=\"M 1659 0 \nL 1659 4041 \nL 150 4041 \nL 150 4581 \nL 3781 4581 \nL 3781 4041 \nL 2266 4041 \nL 2266 0 \nL 1659 0 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-5f\" d=\"M -97 -1272 \nL -97 -866 \nL 3631 -866 \nL 3631 -1272 \nL -97 -1272 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-43\" d=\"M 3763 1606 \nL 4369 1453 \nQ 4178 706 3683 314 \nQ 3188 -78 2472 -78 \nQ 1731 -78 1267 223 \nQ 803 525 561 1097 \nQ 319 1669 319 2325 \nQ 319 3041 592 3573 \nQ 866 4106 1370 4382 \nQ 1875 4659 2481 4659 \nQ 3169 4659 3637 4309 \nQ 4106 3959 4291 3325 \nL 3694 3184 \nQ 3534 3684 3231 3912 \nQ 2928 4141 2469 4141 \nQ 1941 4141 1586 3887 \nQ 1231 3634 1087 3207 \nQ 944 2781 944 2328 \nQ 944 1744 1114 1308 \nQ 1284 872 1643 656 \nQ 2003 441 2422 441 \nQ 2931 441 3284 734 \nQ 3638 1028 3763 1606 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-4f\" d=\"M 309 2231 \nQ 309 3372 921 4017 \nQ 1534 4663 2503 4663 \nQ 3138 4663 3647 4359 \nQ 4156 4056 4423 3514 \nQ 4691 2972 4691 2284 \nQ 4691 1588 4409 1038 \nQ 4128 488 3612 205 \nQ 3097 -78 2500 -78 \nQ 1853 -78 1343 234 \nQ 834 547 571 1087 \nQ 309 1628 309 2231 \nz\nM 934 2222 \nQ 934 1394 1379 917 \nQ 1825 441 2497 441 \nQ 3181 441 3623 922 \nQ 4066 1403 4066 2288 \nQ 4066 2847 3877 3264 \nQ 3688 3681 3323 3911 \nQ 2959 4141 2506 4141 \nQ 1863 4141 1398 3698 \nQ 934 3256 934 2222 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-44\" d=\"M 494 0 \nL 494 4581 \nL 2072 4581 \nQ 2606 4581 2888 4516 \nQ 3281 4425 3559 4188 \nQ 3922 3881 4101 3404 \nQ 4281 2928 4281 2316 \nQ 4281 1794 4159 1391 \nQ 4038 988 3847 723 \nQ 3656 459 3429 307 \nQ 3203 156 2883 78 \nQ 2563 0 2147 0 \nL 494 0 \nz\nM 1100 541 \nL 2078 541 \nQ 2531 541 2789 625 \nQ 3047 709 3200 863 \nQ 3416 1078 3536 1442 \nQ 3656 1806 3656 2325 \nQ 3656 3044 3420 3430 \nQ 3184 3816 2847 3947 \nQ 2603 4041 2063 4041 \nL 1100 4041 \nL 1100 541 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-45\" d=\"M 506 0 \nL 506 4581 \nL 3819 4581 \nL 3819 4041 \nL 1113 4041 \nL 1113 2638 \nL 3647 2638 \nL 3647 2100 \nL 1113 2100 \nL 1113 541 \nL 3925 541 \nL 3925 0 \nL 506 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-49\"/>\n       <use xlink:href=\"#ArialMT-41\" x=\"27.783203\"/>\n       <use xlink:href=\"#ArialMT-54\" x=\"87.107422\"/>\n       <use xlink:href=\"#ArialMT-41\" x=\"140.816406\"/>\n       <use xlink:href=\"#ArialMT-5f\" x=\"207.515625\"/>\n       <use xlink:href=\"#ArialMT-43\" x=\"263.130859\"/>\n       <use xlink:href=\"#ArialMT-4f\" x=\"335.347656\"/>\n       <use xlink:href=\"#ArialMT-44\" x=\"413.130859\"/>\n       <use xlink:href=\"#ArialMT-45\" x=\"485.347656\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_2\">\n     <g id=\"text_2\">\n      <!-- AIRLINE -->\n      <g style=\"fill: #262626\" transform=\"translate(509.263791 74.43841) rotate(-45) scale(0.104 -0.104)\">\n       <defs>\n        <path id=\"ArialMT-52\" d=\"M 503 0 \nL 503 4581 \nL 2534 4581 \nQ 3147 4581 3465 4457 \nQ 3784 4334 3975 4021 \nQ 4166 3709 4166 3331 \nQ 4166 2844 3850 2509 \nQ 3534 2175 2875 2084 \nQ 3116 1969 3241 1856 \nQ 3506 1613 3744 1247 \nL 4541 0 \nL 3778 0 \nL 3172 953 \nQ 2906 1366 2734 1584 \nQ 2563 1803 2427 1890 \nQ 2291 1978 2150 2013 \nQ 2047 2034 1813 2034 \nL 1109 2034 \nL 1109 0 \nL 503 0 \nz\nM 1109 2559 \nL 2413 2559 \nQ 2828 2559 3062 2645 \nQ 3297 2731 3419 2920 \nQ 3541 3109 3541 3331 \nQ 3541 3656 3305 3865 \nQ 3069 4075 2559 4075 \nL 1109 4075 \nL 1109 2559 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-4c\" d=\"M 469 0 \nL 469 4581 \nL 1075 4581 \nL 1075 541 \nL 3331 541 \nL 3331 0 \nL 469 0 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"ArialMT-4e\" d=\"M 488 0 \nL 488 4581 \nL 1109 4581 \nL 3516 984 \nL 3516 4581 \nL 4097 4581 \nL 4097 0 \nL 3475 0 \nL 1069 3600 \nL 1069 0 \nL 488 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-41\"/>\n       <use xlink:href=\"#ArialMT-49\" x=\"66.699219\"/>\n       <use xlink:href=\"#ArialMT-52\" x=\"94.482422\"/>\n       <use xlink:href=\"#ArialMT-4c\" x=\"166.699219\"/>\n       <use xlink:href=\"#ArialMT-49\" x=\"222.314453\"/>\n       <use xlink:href=\"#ArialMT-4e\" x=\"250.097656\"/>\n       <use xlink:href=\"#ArialMT-45\" x=\"322.314453\"/>\n      </g>\n     </g>\n    </g>\n   </g>\n   <g id=\"matplotlib.axis_2\">\n    <g id=\"ytick_1\">\n     <g id=\"text_3\">\n      <!-- 1 -->\n      <g style=\"fill: #262626\" transform=\"translate(55.716625 95.26492) scale(0.104 -0.104)\">\n       <defs>\n        <path id=\"ArialMT-31\" d=\"M 2384 0 \nL 1822 0 \nL 1822 3584 \nQ 1619 3391 1289 3197 \nQ 959 3003 697 2906 \nL 697 3450 \nQ 1169 3672 1522 3987 \nQ 1875 4303 2022 4600 \nL 2384 4600 \nL 2384 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-31\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_2\">\n     <g id=\"text_4\">\n      <!-- 14 -->\n      <g style=\"fill: #262626\" transform=\"translate(49.93325 228.979205) scale(0.104 -0.104)\">\n       <defs>\n        <path id=\"ArialMT-34\" d=\"M 2069 0 \nL 2069 1097 \nL 81 1097 \nL 81 1613 \nL 2172 4581 \nL 2631 4581 \nL 2631 1613 \nL 3250 1613 \nL 3250 1097 \nL 2631 1097 \nL 2631 0 \nL 2069 0 \nz\nM 2069 1613 \nL 2069 3678 \nL 634 1613 \nL 2069 1613 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#ArialMT-31\"/>\n       <use xlink:href=\"#ArialMT-34\" x=\"55.615234\"/>\n      </g>\n     </g>\n    </g>\n   </g>\n   <g id=\"line2d_1\">\n    <path d=\"M 360 230.4 \nL 360 86.4 \n\" clip-path=\"url(#pabd86074de)\" style=\"fill: none; stroke: #ffffff; stroke-width: 1.75; stroke-linecap: round\"/>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pabd86074de\">\n   <rect x=\"72\" y=\"86.4\" width=\"576\" height=\"144\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+        }
+    },
+    "alerts": [
+        "[IATA_CODE] has unique values",
+        "[AIRLINE] has unique values"
+    ],
+    "package": {
+        "ydata_profiling_version": "v4.7.0",
+        "ydata_profiling_config": "{\"title\": \"Profiling Report: {file} table\", \"dataset\": {\"description\": \"\", \"creator\": \"\", \"author\": \"\", \"copyright_holder\": \"\", \"copyright_year\": \"\", \"url\": \"\"}, \"variables\": {\"descriptions\": {}}, \"infer_dtypes\": true, \"show_variable_description\": true, \"pool_size\": 0, \"progress_bar\": true, \"vars\": {\"num\": {\"quantiles\": [0.05, 0.25, 0.5, 0.75, 0.95], \"skewness_threshold\": 20, \"low_categorical_threshold\": 5, \"chi_squared_threshold\": 0.999}, \"text\": {\"length\": true, \"words\": true, \"characters\": true, \"redact\": false}, \"cat\": {\"length\": true, \"characters\": true, \"words\": true, \"cardinality_threshold\": 50, \"percentage_cat_threshold\": 0.5, \"imbalance_threshold\": 0.5, \"n_obs\": 5, \"chi_squared_threshold\": 0.999, \"coerce_str_to_date\": false, \"redact\": false, \"histogram_largest\": 50, \"stop_words\": []}, \"image\": {\"active\": false, \"exif\": true, \"hash\": true}, \"bool\": {\"n_obs\": 3, \"imbalance_threshold\": 0.5, \"mappings\": {\"t\": true, \"f\": false, \"yes\": true, \"no\": false, \"y\": true, \"n\": false, \"true\": true, \"false\": false}}, \"path\": {\"active\": false}, \"file\": {\"active\": false}, \"url\": {\"active\": false}, \"timeseries\": {\"active\": false, \"sortby\": null, \"autocorrelation\": 0.7, \"lags\": [1, 7, 12, 24, 30], \"significance\": 0.05, \"pacf_acf_lag\": 100}}, \"sort\": null, \"missing_diagrams\": {\"bar\": true, \"matrix\": true, \"heatmap\": true}, \"correlation_table\": true, \"correlations\": {\"auto\": {\"key\": \"auto\", \"calculate\": true, \"warn_high_correlations\": 10, \"threshold\": 0.5, \"n_bins\": 10}, \"spearman\": {\"key\": \"spearman\", \"calculate\": false, \"warn_high_correlations\": 10, \"threshold\": 0.5, \"n_bins\": 10}, \"pearson\": {\"key\": \"pearson\", \"calculate\": false, \"warn_high_correlations\": 10, \"threshold\": 0.5, \"n_bins\": 10}, \"phi_k\": {\"key\": \"phi_k\", \"calculate\": false, \"warn_high_correlations\": 10, \"threshold\": 0.5, \"n_bins\": 10}, \"cramers\": {\"key\": \"cramers\", \"calculate\": false, \"warn_high_correlations\": 10, \"threshold\": 0.5, \"n_bins\": 10}, \"kendall\": {\"key\": \"kendall\", \"calculate\": false, \"warn_high_correlations\": 10, \"threshold\": 0.5, \"n_bins\": 10}}, \"interactions\": {\"continuous\": true, \"targets\": []}, \"categorical_maximum_correlation_distinct\": 100, \"memory_deep\": false, \"plot\": {\"missing\": {\"force_labels\": true, \"cmap\": \"RdBu\"}, \"image_format\": \"svg\", \"correlation\": {\"cmap\": \"RdBu\", \"bad\": \"#000000\"}, \"dpi\": 800, \"histogram\": {\"bins\": 50, \"max_bins\": 250, \"x_axis_labels\": true, \"density\": false}, \"scatter_threshold\": 1000, \"cat_freq\": {\"show\": true, \"type\": \"bar\", \"max_unique\": 10, \"colors\": null}}, \"duplicates\": {\"head\": 10, \"key\": \"# duplicates\"}, \"samples\": {\"head\": 10, \"tail\": 10, \"random\": 0}, \"reject_variables\": true, \"n_obs_unique\": 10, \"n_freq_table_max\": 10, \"n_extreme_obs\": 10, \"report\": {\"precision\": 8}, \"html\": {\"style\": {\"primary_colors\": [\"#377eb8\", \"#e41a1c\", \"#4daf4a\"], \"logo\": \"\", \"theme\": null}, \"navbar_show\": true, \"minify_html\": true, \"use_local_assets\": true, \"inline\": true, \"assets_prefix\": null, \"assets_path\": null, \"full_width\": false}, \"notebook\": {\"iframe\": {\"height\": \"800px\", \"width\": \"100%\", \"attribute\": \"srcdoc\"}}}"
+    },
+    "sample": [
+        {
+            "id": "head",
+            "data": [
+                {
+                    "IATA_CODE": "UA",
+                    "AIRLINE": "United Air Lines Inc."
+                },
+                {
+                    "IATA_CODE": "AA",
+                    "AIRLINE": "American Airlines Inc."
+                },
+                {
+                    "IATA_CODE": "US",
+                    "AIRLINE": "US Airways Inc."
+                },
+                {
+                    "IATA_CODE": "F9",
+                    "AIRLINE": "Frontier Airlines Inc."
+                },
+                {
+                    "IATA_CODE": "B6",
+                    "AIRLINE": "JetBlue Airways"
+                },
+                {
+                    "IATA_CODE": "OO",
+                    "AIRLINE": "Skywest Airlines Inc."
+                },
+                {
+                    "IATA_CODE": "AS",
+                    "AIRLINE": "Alaska Airlines Inc."
+                },
+                {
+                    "IATA_CODE": "NK",
+                    "AIRLINE": "Spirit Air Lines"
+                },
+                {
+                    "IATA_CODE": "WN",
+                    "AIRLINE": "Southwest Airlines Co."
+                },
+                {
+                    "IATA_CODE": "DL",
+                    "AIRLINE": "Delta Air Lines Inc."
+                }
+            ],
+            "name": "First rows",
+            "caption": "None"
+        },
+        {
+            "id": "tail",
+            "data": [
+                {
+                    "IATA_CODE": "B6",
+                    "AIRLINE": "JetBlue Airways"
+                },
+                {
+                    "IATA_CODE": "OO",
+                    "AIRLINE": "Skywest Airlines Inc."
+                },
+                {
+                    "IATA_CODE": "AS",
+                    "AIRLINE": "Alaska Airlines Inc."
+                },
+                {
+                    "IATA_CODE": "NK",
+                    "AIRLINE": "Spirit Air Lines"
+                },
+                {
+                    "IATA_CODE": "WN",
+                    "AIRLINE": "Southwest Airlines Co."
+                },
+                {
+                    "IATA_CODE": "DL",
+                    "AIRLINE": "Delta Air Lines Inc."
+                },
+                {
+                    "IATA_CODE": "EV",
+                    "AIRLINE": "Atlantic Southeast Airlines"
+                },
+                {
+                    "IATA_CODE": "HA",
+                    "AIRLINE": "Hawaiian Airlines Inc."
+                },
+                {
+                    "IATA_CODE": "MQ",
+                    "AIRLINE": "American Eagle Airlines Inc."
+                },
+                {
+                    "IATA_CODE": "VX",
+                    "AIRLINE": "Virgin America"
+                }
+            ],
+            "name": "Last rows",
+            "caption": "None"
+        }
+    ],
+    "duplicates": []
+}
