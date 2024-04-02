@@ -2,7 +2,7 @@
   <img src="media/flights-logo.png" width="100" alt="Repository logo" />
 </p>
 <h3 align="center">Flights</h3>
-<p align="center">2023 U.S. Flights dataset <br> analyzed with a Tableau dashboard<p>
+<p align="center">2023 U.S. Flights Dataset <br> Analyzed with a Tableau Dashboard<p>
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/lhbelfanti/flights?label=Repo%20size" alt="Repo size" />
     <img src="https://img.shields.io/github/license/lhbelfanti/flights?label=License" alt="License" />
