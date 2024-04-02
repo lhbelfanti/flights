@@ -37,25 +37,22 @@ The `delay_reasons subset` was created from the `flights subset`, after analyzin
 ## Analysis
 <details>
   <summary>Expand section</summary>
-
-
+<br/>
 
 **Step 1:**
 
 - Run a dataset profiling. `ydata_profiling` was used to achieve this task and obtain valuable information about the different subsets.
   - The script to run that process is [create_profiling.py](./src/data/create_profiling.py)
-
-
-
+<br/>
+<br/>
 
 **Step 2:**
 
 With the information retrieved and with the objective of "creating a Tableau Dashboard" in mind, the next step was to remove the unnecessary data. 
 - This part is the most important because that data will be then converted into information with the visualization of the Dashboard, and there was a lot of things that were not necessary or the format was not the one I needed.
 - Imported the airlines and airports datasets into a Google Sheets document, and using the script [inspect_flights_subset.py](./src/data/inspect_flights_subset.py), I completed the subsets, adding the missing airlines and airports.
-
-
-
+<br/>
+<br/>
 
 **Step 3:**
 
@@ -74,8 +71,6 @@ This process helped me to reduce the `flights subset` size in MB, to the half.
 </details>
 
 ## Relational model diagram
-<details>
-  <summary>Expand section</summary>
 
 ```mermaid
 ---
@@ -125,8 +120,6 @@ erDiagram
         VARCHAR(30) DELAY_CAUSE "Delay cause"
     }
 ```
-
-</details>
 
 
 ---
