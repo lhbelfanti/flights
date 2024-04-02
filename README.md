@@ -37,16 +37,22 @@ The `delay_reasons subset` was created from the `flights subset`, after analyzin
 ## Analysis
 <details>
   <summary>Expand section</summary>
+
 **Step 1:**
+
 - Run a dataset profiling. `ydata_profiling` was used to achieve this task and obtain valuable information about the different subsets.
   - The script to run that process is [create_profiling.py](./src/data/create_profiling.py)
 
+
 **Step 2:**
+
 With the information retrieved and with the objective of "creating a Tableau Dashboard" in mind, the next step was to remove the unnecessary data. 
 - This part is the most important because that data will be then converted into information with the visualization of the Dashboard, and there was a lot of things that were not necessary or the format was not the one I needed.
 - Imported the airlines and airports datasets into a Google Sheets document, and using the script [inspect_flights_subset.py](./src/data/inspect_flights_subset.py), I completed the subsets, adding the missing airlines and airports.
 
+
 **Step 3:**
+
 Lastly but not less important, the `flights subset` was cleaned up.
 - Imported a sample of the January CSV, analyzed which columns added value to the future Tableau Dashboard, and which of them should be renamed, deleted or transformed.
 - Expanded the `FL_DATE` column into 3 columns `DAY`, `MONTH` and `YEAR` (I could have download that data directly from the `bts.gov` page but as each download took a lot of time and I had that information in another column, I decided not to do that, and use the one I had to obtain the same result), and removed the hour because it was always 12:00:00
@@ -54,7 +60,9 @@ Lastly but not less important, the `flights subset` was cleaned up.
 - Created the `delay_reasons subset` to reduce the information of delays to 2 columns instead of 5 (in the `flights subset`). 
 - Created the script [clean_flights_subset.py](./src/data/clean_flights_subset.py) to do this whole process
 
+
 After all this analysis, the new subsets were created in the ['processed' folder](./src/data/processed).
+
 
 This process helped me to reduce the `flights subset` size in MB, to the half.
 </details>
