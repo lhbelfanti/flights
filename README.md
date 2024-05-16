@@ -121,6 +121,13 @@ erDiagram
     }
 ```
 
+## Tableau Dashboard
+
+You can find the [Tableau Workbook](tableau/US-Flights-Analysis.twbx) inside the `tableau` folder. 
+
+That workbook contains two dashboards that can be used a storytelling of the analysis of the `2023 U.S. Flights dataset`.
+
+It is also online, check it up [here](https://public.tableau.com/app/profile/lucas.belfanti1936/viz/2023U_S_Flights/Home).
 
 ---
 ## License
